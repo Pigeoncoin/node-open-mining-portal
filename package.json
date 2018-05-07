@@ -23,7 +23,8 @@
         "foxer666",
         "vekexasia",
         "TheSeven",
-        "Kris Klosterman"
+        "Kris Klosterman",
+        "Luke Pighetti"
     ],
     "main": "init.js",
     "bin": {
@@ -42,13 +43,14 @@
         "dateformat": "^2.2.0",
         "dot": "^1.1.2",
         "express": "^4.16.1",
+        "graceful-fs": "^4.1.11",
         "mysql": "^2.15.0",
         "node-json-minify": "^1.0.0",
         "node-watch": "^0.5.5",
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.83.0",
-        "stratum-pool": "git://github.com/foxer666/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/lukepighetti/node-stratum-pool.git",
         "winston": "^3.0.0-rc1",
         "winston-daily-rotate-file": "^2.0.0-rc.2"
     },
