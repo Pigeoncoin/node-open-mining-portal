@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/foxer666/node-open-mining-portal",
+    "homepage": "https://github.com/Pigeoncoin/node-open-mining-portal",
     "bugs": {
-        "url": "https://github.com/foxer666/node-open-mining-portal/issues"
+        "url": "https://github.com/Pigeoncoin/node-open-mining-portal/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -27,12 +27,16 @@
         "Luke Pighetti"
     ],
     "main": "init.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node init.js"
+    },
     "bin": {
         "block-notify": "./scripts/blockNotify.js"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/foxer666/node-open-mining-portal.git"
+        "url": "https://github.com/Pigeoncoin/node-open-mining-portal.git"
     },
     "dependencies": {
         "async": "^2.5.0",
@@ -50,7 +54,7 @@
         "nonce": "^1.0.4",
         "redis": "^2.7.1",
         "request": "^2.83.0",
-        "stratum-pool": "git://github.com/lukepighetti/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/Pigeoncoin/node-stratum-pool.git",
         "winston": "^3.0.0-rc1",
         "winston-daily-rotate-file": "^2.0.0-rc.2"
     },
